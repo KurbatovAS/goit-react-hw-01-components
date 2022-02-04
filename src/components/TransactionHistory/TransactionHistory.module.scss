@@ -1,0 +1,33 @@
+.transaction {
+  margin-top: 30px;
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 1px 1px 5px #000000;
+
+  & thead {
+    font-weight: 800;
+
+    & th {
+      font-size: 14px;
+      text-transform: uppercase;
+      padding: 8px;
+    }
+  }
+}
+tbody tr:nth-child(odd) {
+  background: #ecf1f4;
+}
+tbody td {
+  vertical-align: center;
+  border: 1px solid #ddd;
+  padding: 5px;
+
+  &:hover {
+    background-color: #ddfbff;
+    cursor: pointer;
+  }
+}

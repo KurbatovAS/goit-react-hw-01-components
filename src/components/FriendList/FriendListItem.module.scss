@@ -1,0 +1,46 @@
+.item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 1px 1px 3px #000000;
+  &:not(:last-child) {
+    margin-bottom: 10px;
+  }
+
+  &:hover {
+    background-color: #dadada;
+  }
+}
+.avatar {
+  margin-left: 10px;
+  background-color: rgb(235, 232, 232);
+  border-radius: 5px;
+}
+.name {
+  font-weight: 700;
+  font-size: 30px;
+  margin: 0;
+  margin-left: 20px;
+}
+.online {
+  &::before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: rgb(46, 146, 28);
+  }
+}
+.offline {
+  &::before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: rgb(155, 36, 36);
+  }
+}

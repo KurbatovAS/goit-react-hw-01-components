@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/KurbatovAS/goit-react-hw-01-components.git/static/css/main.a946ee9e.css",
+    "main.js": "/KurbatovAS/goit-react-hw-01-components.git/static/js/main.3142c29f.js",
+    "index.html": "/KurbatovAS/goit-react-hw-01-components.git/index.html",
+    "main.a946ee9e.css.map": "/KurbatovAS/goit-react-hw-01-components.git/static/css/main.a946ee9e.css.map",
+    "main.3142c29f.js.map": "/KurbatovAS/goit-react-hw-01-components.git/static/js/main.3142c29f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a946ee9e.css",
+    "static/js/main.3142c29f.js"
+  ]
+}

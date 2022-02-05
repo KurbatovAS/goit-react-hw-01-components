@@ -20,6 +20,7 @@ import transactionsData from './data/transactions.json';
 export default function App() {
     return (
         <div className="App">
+            {/* call components */}
             <Profile
                 username={ userData.username }
                 tag={ userData.tag }

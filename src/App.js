@@ -1,7 +1,7 @@
 // import styles for App component
 import './App.scss';
 
-// task 1 - <Profigile>
+// task 1 - <Profile>
 import Profile from './components/Profile/Profile';
 import userData from './data/user.json';
 

@@ -5,7 +5,7 @@ import Style from './Statistics.module.scss';
 export default function Statistics({ title, stats }) {
     return (
         <section className={ Style.statistics }>
-            <h2 className={ Style.title }>{ title }</h2>
+            { title && <h2 className={ Style.title }>{ title }</h2> }
 
             <ul className={ Style.statList }>
                 { stats.map(stat => {
